@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
+
+.header {
+  background-color: rgb(106, 76, 135);
+  width: 100%;
+  position: fixed;
+  font-size: 5vw;
+  box-shadow: 0px 1px 5px black;
+  color: whitesmoke;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-family: "Rajdhani", sans-serif;
+}
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 6vw;
+    font-family: "Rajdhani", sans-serif;
+  }
+}
